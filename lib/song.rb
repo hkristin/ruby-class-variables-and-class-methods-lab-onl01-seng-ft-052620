@@ -4,6 +4,6 @@ class Song
     @@album_count
   end
   def self.count
-    @@album_count
+    @@album_count += 1
   end
 end
