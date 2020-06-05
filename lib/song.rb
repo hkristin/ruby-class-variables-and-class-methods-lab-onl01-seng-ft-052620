@@ -1,9 +1,9 @@
 class Song
-  @@count = 0
+  @@album_count = 0
   def initialize
-    @@album
+    @@album_count
   end
   def self.count
-    @@album
+    @@album_count
   end
 end
