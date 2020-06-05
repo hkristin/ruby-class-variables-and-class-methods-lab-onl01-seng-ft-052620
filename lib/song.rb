@@ -1,5 +1,7 @@
 class Song
   @@count = 0
   
-  def 
+  def self.count
+    @@album
+  end
 end
