@@ -6,6 +6,6 @@ class Song
   def self.count
     @@album_count += 1
   end
+Album.new
 end
 
-Album.new
