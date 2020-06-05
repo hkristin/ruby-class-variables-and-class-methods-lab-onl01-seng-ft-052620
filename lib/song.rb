@@ -1,4 +1,6 @@
 class Song
+ attr_accessor 
+ 
   def new(name,artist,genre)
   end
   
