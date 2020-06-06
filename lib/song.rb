@@ -24,11 +24,12 @@ class Song
   end
   
   def self.genre_count
-    genre_count = { key => value)
+    
   end
   
   def self.artist_count
   end
+  
 end
 
 
