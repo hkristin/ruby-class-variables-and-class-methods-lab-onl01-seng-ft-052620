@@ -32,7 +32,7 @@ class Song
   def self.genre_count
     return_hash = {}
     @@genres.each do |genre|
-      if return_hash
+      if return_hash.include?(genre)
         return_hash[genre] += 1
       else 
         return_hash[genre] = 1
