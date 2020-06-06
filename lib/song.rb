@@ -36,7 +36,9 @@ class Song
         return_hash += 1
       else 
         return_hash[genre] = 1
+      end
     end
+    return_hash
   end
   
   def self.artist_count
