@@ -42,7 +42,15 @@ class Song
   end
   
   def self.artist_count
-    @@artists.count
+     return_hash = {}
+    @@artists.each do |artist|
+      if return_hash.include?(artist)
+        return_hash[artist] += 1
+      else 
+        return_hash[artist] = 1
+      end
+    end
+    return_hash
   end
   
 end
